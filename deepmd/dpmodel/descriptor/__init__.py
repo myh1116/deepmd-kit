@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: LGPL-3.0-or-later
+﻿# SPDX-License-Identifier: LGPL-3.0-or-later
 from .dpa1 import (
     DescrptDPA1,
 )
@@ -7,6 +7,12 @@ from .dpa2 import (
 )
 from .dpa3 import (
     DescrptDPA3,
+)
+from .dpa3_nep import (
+    DescrptDPA3_NEPCompatible,
+)
+from .nep_descriptor import (
+    DescrptNEP,
 )
 from .dpa4 import (
     DescrptDPA4,
@@ -37,8 +43,10 @@ __all__ = [
     "DescrptDPA1",
     "DescrptDPA2",
     "DescrptDPA3",
+    "DescrptDPA3_NEPCompatible",
     "DescrptDPA4",
     "DescrptHybrid",
+    "DescrptNEP",
     "DescrptSeA",
     "DescrptSeAttenV2",
     "DescrptSeR",
